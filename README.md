@@ -1,7 +1,9 @@
 # DBMS_OnlinePlantNurseryStore
 TE PROJECT-(2021)
-(DBMS: Database Management System)
+(DBMS: Database Management System).
+
 The project was about providing a user-friendly functionality making it easy for the user to access the website and the products.
+
 Front-end: HTML, CSS, Bootstrap & JavaScript
 Back-end: PHP 
 Database: MySQL
