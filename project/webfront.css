@@ -1,0 +1,77 @@
+
+*{
+	margin :0;
+	padding :0;
+	box-sizing: border-box;
+	font-family:'Poppins' , sans-serif;
+}
+
+
+p{
+	font-size:1em;
+	font-weight : 300;
+	color:#111;
+}
+
+
+.Tax-banner{
+	background-color: rgb(3, 166, 133);
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container-section{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.banner{
+	padding-bottom:0;
+	position:relative;
+	width:100%;
+	min-height:62vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(photos/nursery0.jpg);
+	background-size:cover;
+}
+
+.banner .content{
+	max-width :900px;
+	text-align :center;
+}
+.banner .content h2{
+	
+	font-size:5em;
+	color:	#D3D3D3;
+}
+.banner .content p
+{
+	font-size :20px;
+	color:#fff;
+}
+.btn{
+	font-size :1em;
+	color:#fff;
+	background:#339933;
+	display:inline-block;
+	padding:10px 30px;
+	margin-top:20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	letter-spacing :2px;
+	transition:0.5s;
+}
+
+.btn:hover
+{
+	letter-spacing :6px;
+	color:#fff
+}
+

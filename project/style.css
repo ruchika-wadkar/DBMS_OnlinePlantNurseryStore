@@ -1,0 +1,415 @@
+/* [Master Stylesheet] */
+/*
+Template Name: Alazea - Gardening &amp; Landscaping HTML Template
+Template Author: Colorlib
+Template Author URI: http://colorlib.com
+Text Domain: Alazea, Gardening & Landscaping
+Version: - v1.0
+*/
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800");
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/classy-nav.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/elegant-icon.css);
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  color: #707070; }
+
+/** 3.1.3	     Main content **/
+.main-content {
+  background: #fff url("../images/background/bg-main.jpg") no-repeat top left;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 150px; }
+
+.clear::before, .clear::after {
+  content: " ";
+  display: table; }
+
+.gutter {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.categories {
+  margin: 120px 0; }
+  .categories img {
+    width: 100%;
+    height: auto; }
+  .categories .categories-item {
+    position: relative; }
+    .categories .categories-item:hover {
+      opacity: .5;
+      transition: all .5s; }
+    .categories .categories-item .categories-info {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      color: #241305; }
+      .categories .categories-item .categories-info .categories-info-name {
+        margin-bottom: 25px;
+        font-family: "Playfair Display", serif;
+        font-size: 36px;
+        font-weight: 700; }
+      .categories .categories-item .categories-info .categories-info-count {
+        margin-bottom: 15px;
+        font-size: 18px; }
+
+
+
+.deal-of-the-week .dotw-pagination .btn-pg {
+  color: #241305; }
+
+
+
+.section-heading h2{
+  text-decoration:overline;
+  text-decoration-style: double;
+  text-decoration-color: #cf784d;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #303030;
+  line-height: 1.3;
+  font-weight: 500; }
+
+p {
+  /* color: #707070; */
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400; }
+
+a,
+a:hover,
+a:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #303030;
+  font-weight: 500;
+  font-size: 14px; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+/* :: 3.1.0 Spacing */
+.mt-15 {
+  margin-top: 15px !important; }
+
+.mt-30 {
+  margin-top: 30px !important; }
+
+.mt-50 {
+  margin-top: 50px !important; }
+
+.mt-70 {
+  margin-top: 70px !important; }
+
+.mt-100 {
+  margin-top: 100px !important; }
+
+.mb-15 {
+  margin-bottom: 15px !important; }
+
+.mb-30 {
+  margin-bottom: 30px !important; }
+
+.mb-50 {
+  margin-bottom: 50px !important; }
+
+.mb-70 {
+  margin-bottom: 70px !important; }
+
+.mb-100 {
+  margin-bottom: 100px !important; }
+
+.ml-15 {
+  margin-left: 15px !important; }
+
+.ml-30 {
+  margin-left: 30px !important; }
+
+.ml-50 {
+  margin-left: 50px !important; }
+
+.mr-15 {
+  margin-right: 15px !important; }
+
+.mr-30 {
+  margin-right: 30px !important; }
+
+.mr-50 {
+  margin-right: 50px !important; }
+
+/* :: 3.2.0 Height */
+.height-400 {
+  height: 400px; }
+
+.height-500 {
+  height: 500px; }
+
+.height-600 {
+  height: 600px; }
+
+.height-700 {
+  height: 700px; }
+
+.height-800 {
+  height: 800px; }
+
+/* :: 3.3.0 Section Padding */
+.section-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.section-padding-100-0 {
+  padding-top: 100px;
+  padding-bottom: 0; }
+
+.section-padding-0-100 {
+  padding-top: 0;
+  padding-bottom: 100px; }
+
+.section-padding-100-70 {
+  padding-top: 100px;
+  padding-bottom: 70px; }
+
+/* :: 3.4.0 Section Heading */
+.section-heading {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px; }
+  .section-heading h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 767px) {
+      .section-heading h2 {
+        font-size: 24px; } }
+  .section-heading p {
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 0; }
+
+
+
+
+
+
+
+/* :: 11.0 Testimonial Area CSS */
+.testimonials-slides {
+  position: relative;
+  z-index: 1; }
+  .testimonials-slides .owl-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    width: 50%; }
+    @media only screen and (max-width: 767px) {
+      .testimonials-slides .owl-dots {
+        width: 100%; } }
+    .testimonials-slides .owl-dots .owl-dot {
+      position: relative;
+      z-index: 1;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 12px;
+      flex: 0 0 12px;
+      max-width: 12px;
+      width: 12px;
+      border: 2px solid #b6b7b7;
+      height: 12px;
+      margin: 0 6px;
+      border-radius: 50%; }
+      .testimonials-slides .owl-dots .owl-dot::after {
+        width: 4px;
+        height: 4px;
+        background-color: #70c745;
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        z-index: 10;
+        opacity: 0;
+        visibility: hidden; }
+      .testimonials-slides .owl-dots .owl-dot.active {
+        border-color: #70c745; }
+        .testimonials-slides .owl-dots .owl-dot.active::after {
+          opacity: 1;
+          visibility: visible; }
+
+.single-testimonial-slide {
+  position: relative;
+  z-index: 1; }
+  .single-testimonial-slide .testimonial-thumb {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.15); }
+    .single-testimonial-slide .testimonial-thumb img {
+      border-radius: 50%; }
+    @media only screen and (max-width: 767px) {
+      .single-testimonial-slide .testimonial-thumb {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px; } }
+  .single-testimonial-slide .testimonial-content .testimonial-author-info h6 {
+    font-size: 18px;
+    margin-bottom: 0; }
+  .single-testimonial-slide .testimonial-content .testimonial-author-info p {
+    margin-bottom: 0;
+    color: #70c745; }
+
+/* :: 12.0 About Us Area CSS */
+.about-us-area {
+  position: relative;
+  z-index: 1; }
+  .about-us-area .border-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ebebeb;
+    margin-top: 50px; }
+
+.alazea-progress-bar {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px; }
+  .alazea-progress-bar .single_progress_bar {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px; }
+    .alazea-progress-bar .single_progress_bar:last-child {
+      margin-bottom: 0; }
+    .alazea-progress-bar .single_progress_bar p {
+      font-weight: 500;
+      line-height: 1;
+      font-size: 18px;
+      color: #333633;
+      margin-bottom: 10px; }
+
+.barfiller {
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 10px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 100%; }
+  .barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #70c745;
+    z-index: 1; }
+  .barfiller .tipWrap {
+    display: none; }
+  .barfiller .tip {
+    margin-top: -35px;
+    padding: 2px 4px;
+    font-size: 18px;
+    color: #303030;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+    font-weight: 500; }
+    .barfiller .tip::after {
+      display: none; }
+
+.single-benefits-area {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px; }
+  .single-benefits-area img {
+    margin-bottom: 30px; }
+  .single-benefits-area p {
+    margin-bottom: 0; }
+
+/* :: 13.0 Service Area CSS */
+.single-service-area {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px; }
+  .single-service-area:last-child {
+    margin-bottom: 0; }
+  .single-service-area .service-icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45px;
+    flex: 0 0 45px;
+    max-width: 45px;
+    width: 45px; }
+  .single-service-area .service-content p {
+    margin-bottom: 0; }
+
+.alazea-video-area {
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0); }
+  .alazea-video-area.bg-overlay:after {
+    border-radius: 6px; }
+  .alazea-video-area img {
+    position: relative;
+    z-index: -21;
+    border-radius: 6px; }
+  .alazea-video-area .video-icon {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 70px;
+    height: 80px;
+    background-color: #70c745;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+    z-index: 100;
+    border-radius: 50%;
+    line-height: 72px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.9; }
+    .alazea-video-area .video-icon i {
+      color: #ffffff;
+      font-size: 24px; }
+    .alazea-video-area .video-icon:hover {
+      opacity: 1;
+      box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0); }
+
+
+      

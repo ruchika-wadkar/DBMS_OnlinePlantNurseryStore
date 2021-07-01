@@ -1,0 +1,67 @@
+*{
+	
+	margin :0;
+	padding :0;
+	box-sizing: border-box;
+	font-family:'Poppins' , sans-serif;
+	
+}
+
+body{
+	/* background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(photos/login1.jpg); */
+	background-image :url(https://images.unsplash.com/photo-1553774651-905c1bc85a56?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+
+
+.loginbox{
+	border-radius :6%;
+	width:400px;
+	height :530px ;
+	background :#000;
+	color :#fff;
+	top:50%;
+	left:50%;
+	position : absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding: 60px 30px;
+}
+
+
+.avatar{
+	width:100px;
+	height:100px;
+	border-radius :50%;
+	position:absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+
+.row{
+	background:#FFFFFF;
+	border-radius:30px;
+}
+
+
+#navbarSupportedContent a{
+	font-size:1em;
+	 font-weight: bold;
+	
+} 
+
+
+footer {
+	color:white;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+  

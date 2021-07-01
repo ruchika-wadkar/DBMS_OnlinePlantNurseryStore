@@ -1,0 +1,29 @@
+
+
+
+.nav-link {
+    color:	#343735 !important;
+    }
+
+
+
+#navbarSupportedContent a{
+	font-size:1em;
+	 font-weight: bold;
+	
+} 
+
+		
+
+
+.nav-link:hover {
+
+     border-bottom-color: #cf784d ;
+    border-bottom-style: solid;
+     border-bottom-width: 1px;
+    -webkit-transition: left .1s ease-out,border-color .1s ease-in;
+    transition: left .1s ease-out,border-color .1s ease-in;
+	 
+    
+    
+}

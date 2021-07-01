@@ -1,0 +1,67 @@
+<section class="shop-test section-padding-100-0">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-12">
+             <section class="cards padding-section">
+                <div class="section-heading text-center">
+                 <h2>SUCCULENTS</h2>
+                 <br>
+                <div class="card-deck mt-2 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" src="photos/succulents3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Crassula Capitella Campfire</h5>
+                      <h4>Rs.470<h4>
+                      <a href="#" class="btn btn-warning">ADD TO CART</a> <select><option>1</option><option>2</option> <option>3</option><option>4</option> <option>5</option><option>6</option> <option>7</option><option>8</option><option>9</option><option>10</option></select>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="photos/succulent1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sedeveria Green Rose </h5>
+                      <h4>Rs.300<h4>
+                      <a href="#" class="btn btn-warning">ADD TO CART</a> <select><option>1</option><option>2</option> <option>3</option><option>4</option> <option>5</option><option>6</option> <option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="photos/succulent2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Echeveria Elegans</h5>
+                      <h4>Rs.550<h4>
+                      <a href="#" class="btn btn-warning">ADD TO CART</a> <select><option>1</option><option>2</option> <option>3</option><option>4</option> <option>5</option><option>6</option> <option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-deck  mt-2 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" src="photos/succulent4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Crassula Capitella 'Thyrsiflora'</h5>
+                      <h4>Rs.430<h4>
+                      <a href="#" class="btn btn-warning">ADD TO CART</a> <select><option>1</option><option>2</option> <option>3</option><option>4</option> <option>5</option><option>6</option> <option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="photos/succulents1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Crassula Perforata</h5>
+                      <h4>Rs.300<h4>
+                      <a href="#" class="btn btn-warning">ADD TO CART</a> <select><option>1</option><option>2</option> <option>3</option><option>4</option> <option>5</option><option>6</option> <option>7</option><option>8</option><option>9</option><option>10</option></select>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="photos/succulents6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Haworthia Reinwardtii</h5>
+                      <h4>Rs.400<h4>
+                      <a href="#" class="btn btn-warning">ADD TO CART</a> <select><option>1</option><option>2</option> <option>3</option><option>4</option> <option>5</option><option>6</option> <option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+              </div>
+             </section>
