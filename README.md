@@ -2,7 +2,7 @@
 TE PROJECT-(2021)
 (DBMS: Database Management System).
 
-The project was about providing a user-friendly functionality making it easy for the user to access the website and the products.
+The project was about providing a user-friendly functionality making it easy for the user to access the website and to buy or access the products from the website.
 
 Front-end: HTML, CSS, Bootstrap & JavaScript
 Back-end: PHP 
